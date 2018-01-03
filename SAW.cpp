@@ -14,10 +14,12 @@ int main(){
 	
 	// MENAMPILKAN NILAI
 	cout << "MATRIKS X :"<<endl;
-	for(int i=0;i<3;i++)
-		for(int j=0;j<5;j++)
-			cout<< a[i][j] <<" | " ;
-			
+	for(int i=0;i<3;i++){
+		for(int j=0;j<5;j++){
+			cout<< a[i][j] <<" | ";
+		}
+		cout<<endl;
+	}
 
    	
 
