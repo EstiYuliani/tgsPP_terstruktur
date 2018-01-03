@@ -22,5 +22,16 @@ int main(){
 	}
 
    	
+	// MENAMPILKAN MATRIX R
+	cout << endl;
+	cout << "MATRIKS R :"<<endl;
+	double mc[5];
+	for(int i=0;i<5;i++){
+		mc[i+1]=max(a[0][i],max(a[1][i],a[2][i]));
+	}
+	cout << endl;
+	
+	
+}
 
 	
